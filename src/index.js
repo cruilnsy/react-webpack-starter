@@ -1,5 +1,9 @@
 import React from "react";
- import ReactDOM from "react-dom";
- import Hello from "./components/HelloWorld/HelloWorld"
+import ReactDOM from "react-dom";
 
- ReactDOM.render(<Hello />, document.getElementById("main"));
+import App from "./app";
+import './index.css';
+
+ReactDOM.render(
+    <App />, 
+    document.querySelector("#root"));
